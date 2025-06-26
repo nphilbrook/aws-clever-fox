@@ -10,5 +10,4 @@ provider "aws" {
   default_tags {
     tags = local.tags_labels
   }
-  # shared_credentials_files = [var.tfc_vault_backed_aws_dynamic_credentials.default.shared_credentials_file]#
 }
